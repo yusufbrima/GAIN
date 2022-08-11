@@ -1,0 +1,139 @@
+{ 
+    "missionTitle": "Unsere Vision",
+    "mission": "Steigerung der Humankapitalentwicklung von unterrepräsentierten Gruppen durch ein von der Gemeinde geleitetes Mentoring-Programm", 
+    "vision": "Bereitstellung einer Plattform für die radikale Einbeziehung unterrepräsentierter Gruppen zur Förderung der Demokratisierung der Hochschulbildung.",
+    "our_values": "Unsere Grundwerte",
+    "values": {
+        "Integrity": {
+            "Title": "Integrity",
+            "Value": "Wir sind bestrebt, die höchsten Standards der persönlichen Ehrlichkeit und des Verhaltens zu leben; Wir kompromittieren niemals unseren guten Ruf und handeln immer im besten Interesse der Entwicklung."
+        },
+      "Compassion": {
+            "Title": "Mitgefühl",
+            "Value": "Wir sind bestrebt, die höchsten Standards der persönlichen Ehrlichkeit und des Verhaltens zu leben; Wir kompromittieren niemals unseren guten Ruf und handeln immer im besten Interesse der Entwicklung."
+        },
+        "Altruism": {
+            "Title": "Altruismus",
+            "Value": "Wir setzen uns für eine Entwicklung ein, die den Bedürfnissen der Gegenwart entspricht, ohne die Fähigkeit künftiger Generationen zu gefährden, ihre eigenen Bedürfnisse zu befriedigen."
+        },
+
+        "Respect": {
+            "Title": "Respekt",
+            "Value": "Wir setzen uns für eine Entwicklung ein, die den Bedürfnissen der Gegenwart entspricht, ohne die Fähigkeit künftiger Generationen zu gefährden, ihre eigenen Bedürfnisse zu befriedigen."
+        },
+
+        "Empower": {
+            "Title": "Ermächtigen",
+            "Value": "Wir setzen uns für eine Entwicklung ein, die den Bedürfnissen der Gegenwart entspricht, ohne die Fähigkeit künftiger Generationen zu gefährden, ihre eigenen Bedürfnisse zu befriedigen."
+        },
+
+        "Sustainability": {
+            "Title": "Nachhaltigkeit",
+            "Value": "Wir setzen uns für eine Entwicklung ein, die den Bedürfnissen der Gegenwart entspricht, ohne die Fähigkeit künftiger Generationen zu gefährden, ihre eigenen Bedürfnisse zu befriedigen."
+        }
+    },
+    "lang": "Sprache wählen",
+    "menu": {
+        "cosponsors":"Co-Sponsoren",
+        "framework": "Programmrahmen",
+        "mentor": "Mentoren",
+        "eligibility": "Mentees",
+        "team": "Mannschaft",
+        "contact": "Kontaktiere uns"
+    },
+    "programme_framework": "Programmrahmen",
+    "Framework": { 
+        "MentorRecruitment": { 
+            "Title": "Rekrutierung von Mentoren",
+            "Value" : "Zwischen Juli und Anfang September 2022 wird ein Bewerbungsfenster geöffnet, um freiwillige Mentoren zu rekrutieren. Diese Mentoren werden mit geringen Beträgen/Mentee vergütet."
+        },
+      "MenteeRecruitment": { 
+            "Title": "Rekrutierung von Mentees",
+            "Value" : "Die gleichzeitige Bewerbung ist für Mentees zwischen Juli und Anfang September möglich."
+        },
+    "Pairing": { 
+            "Title": "Paarung von Mentoren und Mentees",
+            "Value" : "Das Paar aus Mentoren und Mentees soll im Oktober 2022 abgeschlossen sein."
+        },
+    "Mentoring": { 
+            "Title": "Betreuung",
+            "Value" : "Das Mentoring soll zwischen November 2022 und März 2023 absolviert werden."
+        },
+    "Feedback": { 
+            "Title": "Feedback",
+            "Value" : "Das Feedback von Mentoren und Mentees soll im April 2023 eingeholt werden, um zur Verbesserung des Programms beizutragen."
+        },
+    "Closing": { 
+            "Title": "Abschlusszeremonie",
+            "Value" : "Anfang <b>Mai 2023</b> findet eine virtuelle Abschlussfeier statt, bei der Mentoren und Mentees über ihre Erfahrungen im Programm berichten können."
+        }
+       
+    },
+    "mentorApplication": "Mentorenbewerbung",
+    "menteeApplication": "Mentee-Bewerbung",
+    "ApplyNow": "Jetzt bewerben",
+    "ApplicationNotification": "Die GAIN-Anwendung endet am 30. September 2022 um 23:59 UTC+0.",
+    "Mentee_Eligibility": "Berechtigung",
+    "Eligibility": {
+        "Underrepresented": {
+            "Title" : "Unterrepräsentierte Minderheiten",
+            "Value" : "Bewerber aus dem globalen Süden und unterrepräsentierten Minderheiten im globalen Norden."
+        },
+        "FirstGeneration" : {
+            "Title" : "Erste Generation",
+            "Value" : "Ein Kandidat, dessen Eltern/Erziehungsberechtigte keinen Bachelor-Abschluss haben."
+        },
+        "GenderedMinorities" : {
+            "Title" : "Geschlechtsspezifische Minderheiten",
+            "Value" : "Frauen, nicht-binäre Bewerber und Trans-Bewerber jeglicher Geschlechtsorientierung."
+        },
+        "LowIncome" : {
+            "Title" : "Niedriges Einkommen",
+            "Value" : "Kandidaten aus Haushalten mit einem Nettoeinkommen unterhalb der Armutsmesswerte der Vereinten Nationen und der Weltbank."
+        },
+        "DisabledPersons" : {
+            "Title" : "Personen mit Behinderungen",
+            "Value" : "Kandidaten, die eine körperliche oder geistige Beeinträchtigung haben, die eine oder mehrere wichtige Lebensaktivitäten erheblich einschränkt, eine Person, die eine Vorgeschichte oder Aufzeichnungen über eine solche Beeinträchtigung hat, oder eine Person, die von anderen als eine solche Beeinträchtigung wahrgenommen wird."
+        },
+        "LGBTQ" : {
+            "Title" : "LGBTQ+",
+            "Value" : "Lesbische, schwule, bisexuelle, transsexuelle, queere, intersexuelle oder asexuelle Bewerber, wie von der Human Rights Campaign beschrieben."
+        }
+    },
+    "CoSponsors" : "Co-Sponsoren",
+    "BecomeMentor" : "Werden Sie ein GAIN-Mentor",
+    "MentorContent" : "Mentorinnen und Mentoren unterstützen und unterstützen Mentees durch Beratung und Feedback zu ihrer Bewerbungsmappe: Lebenslauf, Statement of Purpose, Auswahl von Graduiertenschulen und den auf ihre beruflichen Interessen abgestimmten Professorinnen und Professoren. Das Mentoring wird virtuell nach einem vereinbarten Zeitplan zwischen Mentor und Mentee in regelmäßigen Abständen durchgeführt. Dies ist ein Freiwilligenprogramm, so dass Doktoranden von allen Universitäten auf der ganzen Welt daran teilnehmen können, anderen jungen Menschen zu helfen. Graduierte haben jahrelange Erfahrung bei der Suche nach Stipendienmöglichkeiten gesammelt und sind daher mit den Werkzeugen und Fähigkeiten ausgestattet, um die Bewerbungen von Mentees für Graduiertenprogramme zu verbessern.",
+    "AdvisoryCommittee": "BERATUNGSAUSSCHUSS",
+    "CommitteeLead" : "Ausschussleitung:",
+    "AdvisoryCommitteeTeam" : "Mannschaft",
+    "OurTeam": "UNSER TEAM",
+    "GAINLead": "GAIN Führen",
+    "Treasurer" : "Schatzmeister",
+    "CallToAction" : "\"Unterversorgte Gruppen einbeziehen, Leben verändern.\"",
+    "GetInTouch" : "In Kontakt kommen",
+    "MenteeMessage" : "Eingehende Mentees:",
+    "ReachOut" : "Wenden Sie sich an uns, wenn Sie Fragen zum Bewerbungsprozess, zur Berechtigung, zum Zeitplan usw. haben.",
+    "CurrentGradStudents" : "Aktuelle Absolventinnen und Absolventen:",
+    "GetInvolved" : "kontaktieren Sie uns, wenn Sie sich an GAIN beteiligen möchten.",
+    "Donors" : "Spender/Jugendhilfeorganisationen:",
+    "Partnership" : "Kontaktieren Sie uns, wenn Sie spenden und/oder mit uns zusammenarbeiten möchten.",
+    "ContactUs" : "Kontaktiere uns",
+    "Submit" : "Einreichen",
+    "YourEmail" : "Deine E-Mail",
+    "YourName" : "Ihren Namen",
+    "YourSubject" : "Thema", 
+    "YourMessage" : "Ihre Nachricht",
+    "AboutUs" : "Über uns",
+    "University" : "Universität Osnabrück, Deutschland",
+    "QuickLinks" : "Schnelle Links",
+    "AboutUsQuick" : "Über uns",
+    "PrivacyPolicy" : "Privacy Policy",
+    "TermsAndConditions" : "Nutzungsbedingungen",
+    "Connect" : "Verbinden",
+    "CopyRight" : "Urheberrecht 2022",
+    "AllRightsReserved" : "GAIN. Alle Rechte vorbehalten",
+    "BackToTop" : "Zurück nach oben",
+    "Welcome" : "Herzlich willkommen :: GAIN"
+
+
+}

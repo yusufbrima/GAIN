@@ -1,0 +1,523 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title class="Welcome">Welcome :: GAIN</title>
+</head>
+<body>
+    <header class="scrollspy onepager" id="top">
+        <nav class="nav-wrapper transparent"> <!-- blue-grey lighten-4 -->
+            <div class="container">
+                <a href="/" class="brand-logo">
+                    <!-- <img src="images/Igain_Final.png"  class="responsive-img logo"/> -->
+                    GAIN
+                </a>
+                <a href="#" data-target="mobile-links" class="sidenav-trigger"> <i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#cosponsors" class="cosponsors_menu">Co-Sponsors</a></li>
+                    <li><a href="#framework" class="framework_menu">Program Framework</a></li>
+                    <li><a href="#mentor" class="mentor_menu">Mentors</a></li>
+                    <li><a href="#eligibility" class="eligibility_menu">Mentees</a></li>
+                    <li><a href="#team" class="team_menu">Team</a></li>
+                    <li><a href="#contact" class="contact_menu">Contact Us</a></li>
+                      <!-- Dropdown Trigger -->
+                    <li>
+                        <a class='dropdown-trigger' href='#' data-target='dropdown1' id="lang_selector">Language</a>
+                          <!-- Dropdown Structure -->
+                        <ul id='dropdown1' class='dropdown-content'>
+                            <li><a href="#!" onclick="setLanguage('en')">English</a></li>
+                            <li><a href="#!" onclick="setLanguage('de')">Deutch</a></li>
+                            <li><a href="#!" onclick="setLanguage('ru')">Русский</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-links">
+            <li><a href="#cosponsors" class="cosponsors_menu">Co-Sponsors</a></li>
+            <li><a href="#framework" class="framework_menu">Program Framework</a></li>
+            <li><a href="#mentor" class="mentor_menu">Mentors</a></li>
+            <li><a href="#eligibility" class="eligibility_menu">Mentees</a></li>
+            <li><a href="#team" class="team_menu">Team</a></li>
+            <li><a href="#contact" class="contact_menu">Contact Us</a></li>
+            <li>
+                <a class='dropdown-trigger' href='#' data-target='dropdown2' id="lang_selector2">Language</a>
+                  <!-- Dropdown Structure -->
+                <ul id='dropdown2' class='dropdown-content'>
+                    <li><a href="#!" onclick="setLanguage('en')">English</a></li>
+                    <li><a href="#!" onclick="setLanguage('de')">Deutch</a></li>
+                    <li><a href="#!" onclick="setLanguage('ru')">Русский</a></li>
+                </ul>
+            </li>
+        </ul>
+        <h1 class="white-text text-darken-4 center-align" id="typed"></h1>
+        <h4 class="white-text text-darken-4 center-align application application_notification">The GAIN application closes 23:59 UTC+0, September 30, 2022.</h4>
+        <a href="#" class="btn btn-large waves-effect waves-light pink mentee_apply">Apply Now</a>
+    </header>
+  <!-- navbar -->
+  <!-- <section class="container section" id="corevalues">
+    <h1 class="indigo-text text-darken-4 center-align">Our Core Values</h1>
+    <div class="row corevalues">
+    </div>
+  </section> -->
+<!-- Start of core values -->
+  <div class="container">
+    <div class="section" id="corevalues">
+
+      <!--   Icon Section   -->
+      <h1 class="header indigo-text text-darken-4 center-align our_values">Our core values</h1>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons large">check_circle</i></h2>
+            <h5 class="center Integrity">Integrity</h5>
+
+            <p class="light text-justify Integrity_Content">We seek to live to the highest standards of personal honesty and behaviour; we
+never compromise our reputation and always act in the best interests of
+development.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons large">link</i></h2>
+            <h5 class="center Compassion">Compassion</h5>
+            <p class="light text-justify Compassion_Content">We take personal responsibility for using our resources efficiently, achieving
+measurable results, and being accountable to supporters, partners and, most of all,
+man and his environment. We are reliable partners and we exalt good stewardship</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons large">loyalty</i></h2>
+            <h5 class="center Altruism">Altruism</h5>
+
+            <p class="light Altruism_Content">We are committed to development that meets the needs of the present without
+compromising the ability of future generations to meet their own needs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons large">gavel</i></h2>
+            <h5 class="center Respect">Respect</h5>
+
+            <p class="light Respect_Content">We are committed to development that meets the needs of the present without
+compromising the ability of future generations to meet their own needs.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons large">extension</i></h2>
+            <h5 class="center Empower">Empower</h5>
+
+            <p class="light Empower_Content">We are committed to development that meets the needs of the present without
+compromising the ability of future generations to meet their own needs.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons large">autorenew</i></h2>
+            <h5 class="center Sustainability">Sustainability</h5>
+
+            <p class="light Sustainability_Content">We are committed to development that meets the needs of the present without
+compromising the ability of future generations to meet their own needs.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End of Core Values -->
+  <!-- <section class="container section scrollspy onepager" id="framework">
+    <h1 class="indigo-text text-darken-4 center-align">Programme Framework</h1>
+    <div class="row framework">
+    </div>
+  </section> -->
+  <!-- Start of program framework -->
+  <section class="container section scrollspy onepager" id="framework">
+    <h1 class="indigo-text text-darken-4 center-align programme_framework">Programme Framework</h1>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-content black-text">
+            <span class="card-title indigo-text text-darken-4 MentorRecruitment">Recruitment of Mentors</span>
+            <p class="MentorRecruitment_Content">An application window is opened to recruit volunteer mentors between  July and Early September 2022. These mentors shall be remunerated at menial amounts/mentee</p>
+          </div>
+          <div class="card-action">
+            <a href="#" class="mentorApplication">Mentor Application</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-content black-text">
+            <span class="card-title indigo-text text-darken-4 MenteeRecruitment">Recruitment of Mentees</span>
+            <p class="MenteeRecruitment_Content">Concurrent application shall be open to mentees between July and Early September.</p>
+          </div>
+          <div class="card-action">
+            <a href="#" class="menteeApplication">Mentee Application</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-content black-text">
+            <span class="card-title indigo-text text-darken-4 Pairing">Pairing of Mentors and Mentees</span>
+            <p class="Pairing_Content">Pair of mentors and mentees shall be completed in October  2022.</p>
+          </div>
+          <div class="card-action">
+            <!-- <a href="#">Mentee Application</a> -->
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-content black-text">
+            <span class="card-title indigo-text text-darken-4 Mentoring">Mentoring</span>
+            <p class="Mentoring_Content">Mentorship shall be completed between November 2022 to March 2023.</p>
+          </div>
+          <div class="card-action">
+            <!-- <a href="#">Mentee Application</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-content black-text">
+            <span class="card-title indigo-text text-darken-4 Feedback">Feedback</span>
+            <p class="Feedback_Content">Feedback from both mentors and mentees shall be collected in April 2023  to help improve the programme.</p>
+          </div>
+          <div class="card-action">
+            <!-- <a href="#">Mentee Application</a> -->
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-content black-text">
+            <span class="card-title indigo-text text-darken-4 Closing">Closing Ceremony</span>
+            <p class="Closing_Content">A virtual closing ceremony will be held in early <b>May</b> 2023 where mentors and mentees can give account of their experience in the program.</p>
+          </div>
+          <div class="card-action">
+            <!-- <a href="#">Mentee Application</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of program -->
+  <!-- Co-Sponsors -->
+  <div class="container section">
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row scrollspy onepager" id="cosponsors">
+        <h1 class="header indigo-text text-darken-4 center-align CoSponsors">Co-Sponsors</h1>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <img src="images/dfg.jpg"  class="responsive-img" />
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <img src="images/Herz-Stiftung.jpg"  class="responsive-img" />
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <img src="images/google-org.png"  class="responsive-img" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+            <div class="icon-block">
+              <img src="images/giz.png"  class="responsive-img" />
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <img src="images/The_Rockefeller_Foundation_Logo.png"  class="responsive-img" />
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <img src="images/Idrc.png"  class="responsive-img" />
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End of Co-Sponsors -->
+  <!-- Eligibility -->
+  <!-- <section class="container section">
+    <h1 class="indigo-text text-darken-4 center-align">Eligibility</h1>
+    <div class="row eligibility scrollspy onepager" id="eligibility">
+    </div>
+    <a href="#" class="btn btn-large waves-effect waves-light pink mentee_apply">Apply Now</a>
+  </section> -->
+
+  <section class="container section">
+    <h1 class="indigo-text text-darken-4 center-align Mentee_Eligibility">Eligibility</h1>
+    <div class="row scrollspy onepager" id="eligibility">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons large">nature_people</i></h2>
+          <h5 class="center Underrepresented">Underrepresented Minorities</h5>
+    
+          <p class="light text-justify Underrepresented_Content">Applicants from the global South and underrepresented minorities in the Global North.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons large">rowing</i></h2>
+          <h5 class="center FirstGeneration">First-Generation</h5>
+    
+          <p class="light text-justify FirstGeneration_Content">A candidate whose parent(s)/legal guardian(s) have not completed a bachelor’s degree.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons large">opacity</i></h2>
+          <h5 class="center GenderedMinorities">Gendered Minorities</h5>
+    
+          <p class="light text-justify GenderedMinorities_Content">Women, non-binary applicants, and trans applicants of any gender orientation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons large">autorenew</i></h2>
+          <h5 class="center LowIncome">Low-Income</h5>
+    
+          <p class="light text-justify LowIncome_Content">Candidates  from households with net income below the United Nations and World Bank’s poverty measures.</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons large">accessible</i></h2>
+          <h5 class="center DisabledPersons">Persons with disabilities</h5>
+    
+          <p class="light text-justify DisabledPersons_Content">Candidate  who have a physical or mental impairment that substantially limits one or more major life activities, a person who has a history or record of such an impairment, or a person who is perceived by others as having such an impairment.          </p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons large">all_inclusive</i></h2>
+          <h5 class="center LGBTQ">LGBTQ+</h5>
+    
+          <p class="light text-justify LGBTQ_Content">Lesbian, gay, bisexual, transgender, queer, intersex, or asexual applicants as described by the Human Rights Campaign.</p>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn btn-large waves-effect waves-light pink mentee_apply">Apply Now</a>
+  </section>
+
+
+
+  <!-- End of Eligibility -->
+  <!-- Becoming a GAIN Mentor -->
+  <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+        <div class="container scrollspy onepager" id="mentor">
+            <div class="row center">
+            <h5 class="header col s12 white-text text-darken-4 BecomeMentor">Become a GAIN Mentor</h5>
+            <p class="text-justify lighten-2 white-text sm-text MentorContent">
+                Mentors support and assist mentees through guidance and feedback on their application portfolio: CV, Statement of Purpose, selecting graduate schools, and the professors aligned to their career interests. The mentoring will be done virtually on an agreed schedule between the mentor and the mentee at regular intervals. This is a volunteering program, so graduate students from any university across the world can participate in helping other young people. Graduate students have gained years of experience searching for scholarship opportunities, and thus, are equipped with the tools and skillsets to improve mentees' applications to graduate programmes.
+            </p>
+             <a href="#" class="btn btn-large waves-effect waves-light pink mentorApplication">Mentor Application</a>
+            </div>
+        </div>
+        </div>
+        <div class="parallax"><img src="images/Igor_Alecsander.png" alt="Become a GAIN Mentor" style="opacity: 1; transform: translate3d(-50%, 232.744px, 0px);"></div>
+    </div>
+  <!-- End Becoming a GAIN Mentor -->
+    <!-- Advisory Committee -->
+    <div class="container divider"></div>
+    <div class="parallax-container valign-wrapper">
+        <div class="row right-align committee">
+            <div class="col s12 m12 l12">
+              <h2 class="right-align col s12 white-text text-darken-4 AdvisoryCommittee">ADVISORY COMMITTEE </h2>
+              <h5 class="text-right header col s12 white-text text-darken-4 CommitteeLead">Committee Lead:</h5>
+              <p class="text-right lighten-2 white-text sm-text">
+                  Prof. John Doe
+              </p>
+              <h5 class=" text-right header col s12 white-text text-darken-4 AdvisoryCommitteeTeam">Team:</h5>
+              <p class="text-right lighten-2 white-text sm-text">
+                  Prof. Mary Doe
+              </p>
+              <p class="text-right lighten-2 white-text sm-text">
+                  Pro. Peter Blake
+              </p>
+              <p class="text-right lighten-2 white-text sm-text">
+                  Dr. Lara Smith
+              </p>
+              </div>
+          </div>
+      <div class="parallax"><img src="images/uos.png" alt="GAIN TEAM" style="opacity: 1; transform: translate3d(-50%, 232.744px, 0px);"></div>
+  </div>
+  <!-- End of Advisory Committee -->
+  <!-- Team -->
+  <div class="container divider"></div>
+  <div class="parallax-container valign-wrapper">
+      <div class="row left-align team scrollspy onepager" id="team">
+          <div class="col s12 m12 l12">
+            <h2 class="left-align col s12 white-text text-darken-4 OurTeam">OUR TEAM</h2>
+            <h5 class="text-left header col s12 white-text text-darken-4 GAINLead">GAIN Lead:</h5>
+            <p class="text-left lighten-2 white-text sm-text">
+                Yusuf Brima
+            </p>
+            <h5 class=" text-left header col s12 white-text text-darken-4 AdvisoryCommitteeTeam">Team:</h5>
+            <p class="text-left lighten-2 white-text sm-text">
+              Frauke Olthoff  
+            </p>
+            <p class="text-left lighten-2 white-text sm-text">
+                Sefa Fripong 
+            </p>
+            <p class="text-left lighten-2 white-text sm-text">
+              Viktoria Zemliak 
+            </p>
+            <p class="text-left lighten-2 white-text sm-text">
+              Abubakarr. M. Kamara
+            </p>
+            <h5 class="text-left header col s12 white-text text-darken-4 Treasurer">Treasurer:</h5>
+            <p class="text-left lighten-2 white-text sm-text">
+                Kathrin Jackson
+            </p>
+           </div>
+        </div>
+    <div class="parallax"><img src="images/team.png" alt="GAIN TEAM" style="opacity: 1; transform: translate3d(-50%, 232.744px, 0px);"></div>
+</div>
+<div class="container divider"></div>
+  <!-- End Team -->
+  <!-- parallax -->
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot" style="width: 100%;">
+        <div class="container">
+          <div class="row center engaging">
+            <div class="col m12 s12 l12">
+                <h3 class="center-align header col s12 light lighten-2 white-text CallToAction">"Engaging underserved groups, transforming lives."</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+  <div class="parallax">
+    <img src="images/mensa.png" alt="" class="responsive-img">
+  </div>
+</div>
+    <!-- contact form -->
+    <section class="section container scrollspy onepager" id="contact">
+        <div class="row">
+          <div class="col s12 l5">
+            <h2 class="indigo-text text-darken-4 GetInTouch">Get In Touch</h2>
+            <h6 class="indigo-text text-darken-4 MenteeMessage">Incoming mentees:</h6>
+            <p class="ReachOut">
+              reach out if you have questions about the application process, eligibility, timeline, etc.</p>
+            <h6 class="indigo-text text-darken-4 CurrentGradStudents">Current graduate students:</h6>
+            <p class="GetInvolved">reach out if you would like to get involved in GAIN.</p>
+            <h6 class="indigo-text text-darken-4 Donors">Donors/Youth Support Organizations:</h6>
+            <p class="Partnership"> reach out if you want to donate and/or partner with us.
+            </p>
+          </div>
+          <div class="col s12 l5 offset-l2">
+            <h2 class="indigo-text text-darken-4 ContactUs">Contact Us</h2>
+              <div class="green-text text-darken-4 text-justify" id="response">
+              </div>
+            <form action="" id="contact_us">
+              <div class="input-field">
+                <i class="material-icons prefix ">email</i>
+                <input type="email" id="email" name="email" data-email="true" required />
+                <label for="email" class="YourEmail">Your email</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">person</i>
+                <input type="text" id="name" name="name" required />
+                <label for="name" class="YourName">Your name</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">subject</i>
+                <input type="text" id="subject" name="subject" required />
+                <label for="subject" class="YourSubject">Subject</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">message</i>
+                <textarea name="body" id="message" required class="materialize-textarea"></textarea>
+                <label for="message" class="YourMessage">Your message</label>
+              </div>
+              <div class="input-field center">
+                <button class="btn Submit" name="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+<!-- End of Contact -->
+
+<!-- footer -->
+  <footer class="page-footer  indigo darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text AboutUs">About Us</h5>
+          <p class="grey-text text-lighten-4"> <i class="fas fa-map-marker"></i><span class="University">Osnabrück University, Germany</span></p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text QuickLinks">Quick Links</h5>
+          <ul>
+            <li><a class="white-text ContactUsQuick" href="#" >Contact Us</a></li>
+            <li><a class="white-text AboutUsQuick" href="#" >About Us</a></li>
+            <li><a class="white-text PrivacyPolicy" href="#" >Privacy Policy</a></li>
+            <li><a class="white-text TermsAndConditions" href="#">Terms and conditions of service</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text Connect">Connect</h5>
+          <ul>
+            <li><a href="#" class="white-text"><i class="fab fa-facebook"></i> </a></li>
+            <li><a href="#" class="white-text"><i class="fab fa-twitter"></i> </a></li>
+            <li><a href="#" class="white-text"><i class="fab fa-linkedin"></i> </a></li>
+            <li><a href="#" class="white-text"><i class="fab fa-instagram"></i> </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        &copy; <span class="CopyRight">Copyright 2022</span>  <a class="white-text text-lighten-3 AllRightsReserved" href="#">GAIN. All rights reserved</a>
+        <span class="right white-text">&nbsp; &nbsp; &nbsp; <a href="#top" class="white-text BackToTop">Back to top <i class="fas fa-arrow-circle-up fa-2x"></i> </a> &nbsp; &nbsp; &nbsp;</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
