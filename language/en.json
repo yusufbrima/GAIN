@@ -45,23 +45,23 @@
     "Framework": { 
         "MentorRecruitment": { 
             "Title": "Recruitment of Mentors",
-            "Value" : "An application window is opened to recruit volunteer mentors between July and Early September 2022. These mentors shall be remunerated at menial amounts/mentee."
+            "Value" : "An application window is opened to recruit volunteer mentors between <b>August 22nd  and September 30, 2022</b>."
         },
       "MenteeRecruitment": { 
             "Title": "Recruitment of Mentees",
-            "Value" : "Concurrent application shall be open to mentees between July and Early September."
+            "Value" : "Concurrent application shall be open to mentees between <b>September 8th  and 7th October 2022</b>."
         },
     "Pairing": { 
             "Title": "Pairing of Mentors and Mentees",
-            "Value" : "Pair of mentors and mentees shall be completed in October 2022."
+            "Value" : "Pair of mentors and mentees shall be completed in <b>October 2022</b>."
         },
     "Mentoring": { 
             "Title": "Mentoring",
-            "Value" : "Mentorship shall be completed between November 2022 to March 2023."
+            "Value" : "Mentorship shall be completed between <b>1st November 2022 to March 30,  2023</b>."
         },
     "Feedback": { 
             "Title": "Feedback",
-            "Value" : "Feedback from both mentors and mentees shall be collected in April 2023 to help improve the programme."
+            "Value" : "Feedback from both mentors and mentees shall be collected in <b>April 2023</b> to help improve the programme."
         },
     "Closing": { 
             "Title": "Closing Ceremony",
@@ -72,7 +72,7 @@
     "mentorApplication": "Mentor Application",
     "menteeApplication": "Mentee Application",
     "ApplyNow": "Apply Now",
-    "ApplicationNotification": "The GAIN application closes 23:59 UTC+0, September 30, 2022.",
+    "ApplicationNotification": "The GAIN application window is between September 8th and 7th October 2022.",
     "Mentee_Eligibility": "Eligibility",
     "Eligibility": {
         "Underrepresented": {
@@ -133,7 +133,7 @@
     "CopyRight" : "Copyright 2022",
     "AllRightsReserved" : "GAIN. All rights reserved",
     "BackToTop" : "Back to top",
-    "Welcome" : "Welcome :: GAIN"
+    "Welcome" : "Welcome to :: GAIN"
 
 
 }
