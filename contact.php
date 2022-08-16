@@ -11,32 +11,20 @@ function send_mail($to,$name,$subject,$body,$services){
 	$mail = new PHPMailer(true);
 	try {
 	    //Server settings
-	    // $mail->SMTPDebug = SMTP::DEBUG_OFF;  //DEBUG_SERVER|DEBUG_CLIENT                    // Enable verbose debug output
-	    // $mail->isSMTP();                                            // Send using SMTP
-	    // $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
-	    // $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-	    // $mail->Username   = 'nhospitalbd@gmail.com';                     // SMTP username
-	    // $mail->Password   = 'NINSbd123$';                               // SMTP password
-	    // $mail->SMTPSecure = 'ssl';//PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-	    // $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
-
-
-
-
-			$mail->SMTPDebug = SMTP::DEBUG_SERVER;  //DEBUG_SERVER|DEBUG_CLIENT/DEBUG_OFF                    // Enable verbose debug output
+		$mail->SMTPDebug = SMTP::DEBUG_SERVER;  //DEBUG_SERVER|DEBUG_CLIENT/DEBUG_OFF                    // Enable verbose debug output
 	    $mail->isSMTP();                                            // Send using SMTP
 	    $mail->Host       = 'smtp.googlemail.com';                    // Set the SMTP server to send through
 	    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-	    $mail->Username   = 'monerdaktar.trin@gmail.com';                     // SMTP username
-	    $mail->Password   = 'M0j45@rwo6w5';                               // SMTP password
+	    $mail->Username   = 'youremail@gmail.com';                     // SMTP username
+	    $mail->Password   = 'password';                               // SMTP password
 	    $mail->SMTPSecure = 'ssl'; //PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 	    $mail->Port       = 456;
 
 	    //Recipients
-	    $mail->setFrom('monerdaktar.trin@gmail.com', 'EmergentAI');
+	    $mail->setFrom('youremail@gmail.com', 'GAIN');
 	    $mail->addAddress($to, $name);     // Add a recipient
 	    $mail->addReplyTo($body["client_email"], $body["client_name"]);
-	    $mail->addCC('yusufbrima@cse.du.ac.bd');
+	    $mail->addCC('youremail2@gmail.com');
 	    //$mail->addBCC('bcc@example.com');
 
 	    // Attachments
@@ -73,14 +61,9 @@ function send_mail($to,$name,$subject,$body,$services){
 	    					     <p>
 	    						 '. $body["message"] .'
 	    						</p>
-	    						<p> Services requested:  '. $services_body.'
-	    						</p>
-	    						<p>Service date '.$body["client_date"].'
-	    						  <hr />
-	    						</p>
 	    						<p>
 	    							Thank you,<br />
-	    							EmergentAI.
+	    							GAIN Communications Team.
 	    						</p>
 	    						</div>
 	    					</body>
@@ -103,14 +86,9 @@ function send_mail($to,$name,$subject,$body,$services){
 		$body['client_name'] = $_POST['name'];
 		$body['message'] = $_POST['body'];
 		$subject = $_POST['subject'];
-		$body['client_date'] = $_POST['date']??"";
-		$service['strategy'] = isset($_POST['strategy'])?"ML Strategy":"";
-		$service['research'] = isset($_POST['research'])?"ML Research":"";
-		$service['ml'] = isset($_POST['ml'])?"Machine Learning Application":"";
-		$service['deployment'] = isset($_POST['deployment'])?"ML Deployment":"";
 
-		$to = 'yusufbrima@gmail.com';
-		$name = 'Support';
+		$to = 'youremail@gmail.com';
+		$name = 'Inquiry';
 		if(send_mail($to,$name,$subject,$body,$service)){
 			echo "Thank you for getting in touch, we will get back to you shortly";
 		}else{
