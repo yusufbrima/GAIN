@@ -1,139 +1,154 @@
-{ 
-    "missionTitle": "Our Vision",
-    "mission": "To increase human capital development of underrepresented groups through a community-led mentoring programme", 
-    "vision": "To provide a platform for radical inclusion of underrepresented groups to foster democratization of higher education.",
-    "our_values": "Our core values",
-    "values": {
-        "Integrity": {
-            "Title": "Integrity",
-            "Value": "We seek to live to the highest standards of personal honesty and behaviour; we never compromise our reputation and always act in the best interests of development."
-        },
-      "Compassion": {
-            "Title": "Compassion",
-            "Value": "We seek to live to the highest standards of personal honesty and behaviour; we never compromise our reputation and always act in the best interests of development."
-        },
-        "Altruism": {
-            "Title": "Altruism",
-            "Value": "We are committed to development that meets the needs of the present without compromising the ability of future generations to meet their own needs."
-        },
+{
+  "missionTitle": "رؤيتنا",
+  "mission": "تنمية رأس المال البشري للفئات الممثلة تمثيلا ناقصا من خلال برنامج توجيه بقيادة المجتمع",
+  "vision": "لتوفير منصة للإدماج المجموعات الممثلة تمثيلا ناقصا لتعزيز التعليم العالي لجميع الفئات ",
+  "our_values": "قيمنا الأساسية",
+  "values": {
+    "Integrity": {
+      "Title": "التكامل",
+      "Value": "نحن نؤمن إيمانا راسخا بالأمانة والمبادئ الأخلاقية القوية لتوجيه أعمالنا."
+    },
+    "Compassion": {
+      "Title": "تعاطف",
+      "Value": "الرحمة هي الدافع وراء التزامنا بخدمة الآخرين بتعاطف ولطف وكرامة."
+    },
+    "Altruism": {
+      "Title": "الإيثار",
+      "Value": "نحن نسعى جاهدين بنكران الذات من أجل رفاهية ورفاهية الآخرين."
+    },
 
-        "Respect": {
-            "Title": "Respect",
-            "Value": "We are committed to development that meets the needs of the present without compromising the ability of future generations to meet their own needs."
-        },
+    "Respect": {
+      "Title": "الاحترام",
+      "Value": "نسعى إلى مجتمع شامل وودي للجميع من خلال مبدأ القيمة والكرامة المتساوية."
+    },
 
-        "Empower": {
-            "Title": "Empower",
-            "Value": "We are committed to development that meets the needs of the present without compromising the ability of future generations to meet their own needs."
-        },
+    "Empower": {
+      "Title": "التمكين",
+      "Value": "نعتقد أن كل شخص يستحق الوصول إلى أقصى إمكاناته لتحقيق الذات."
+    },
 
-        "Sustainability": {
-            "Title": "Sustainability",
-            "Value": "We are committed to development that meets the needs of the present without compromising the ability of future generations to meet their own needs."
-        }
+    "Sustainability": {
+      "Title": "الاستدامة",
+      "Value": "يظل التزامنا بإضفاء الطابع الديمقراطي على التعليم العالي ثابتًا في ضمان صمود واستمرارية برامجنا."
+    }
+  },
+  "lang": "اختر اللغة",
+  "menu": {
+    "cosponsors": "الرعاة",
+    "framework": "بنية البرنامج",
+    "mentor": "المرشدون",
+    "eligibility": "المتدربين",
+    "team": "الفريق",
+    "contact": "اتصل بنا"
+  },
+  "programme_framework": "بنية البرنامج",
+  "Framework": {
+    "MentorRecruitment": {
+      "Title": "توظيف المرشدين",
+      "Value": "يتم فتح التقديم لتعيين مرشدين متطوعين بين 22 أغسطس و 30 سبتمبر 2022."
     },
-    "lang": "Choose Languge",
-    "menu": {
-        "cosponsors":"Co-Sponsors",
-        "framework": "Program Framework",
-        "mentor": "Mentors",
-        "eligibility": "Mentees",
-        "team": "Team",
-        "contact": "Contact Us"
+    "MenteeRecruitment": {
+      "Title": "توظيف المتدربين",
+      "Value": "سيكون التقديم مفتوحًا للمتدربين في الفترة ما بين 8 سبتمبر و 7 أكتوبر 2022"
     },
-    "programme_framework": "Programme Framework",
-    "Framework": { 
-        "MentorRecruitment": { 
-            "Title": "Recruitment of Mentors",
-            "Value" : "An application window is opened to recruit volunteer mentors between <b>August 22nd  and September 30, 2022</b>."
-        },
-      "MenteeRecruitment": { 
-            "Title": "Recruitment of Mentees",
-            "Value" : "Concurrent application shall be open to mentees between <b>September 8th  and 7th October 2022</b>."
-        },
-    "Pairing": { 
-            "Title": "Pairing of Mentors and Mentees",
-            "Value" : "Pair of mentors and mentees shall be completed in <b>October 2022</b>."
-        },
-    "Mentoring": { 
-            "Title": "Mentoring",
-            "Value" : "Mentorship shall be completed between <b>1st November 2022 to March 30,  2023</b>."
-        },
-    "Feedback": { 
-            "Title": "Feedback",
-            "Value" : "Feedback from both mentors and mentees shall be collected in <b>April 2023</b> to help improve the programme."
-        },
-    "Closing": { 
-            "Title": "Closing Ceremony",
-            "Value" : "A virtual closing ceremony will be held in early <b>May 2023</b> where mentors and mentees can give account of their experience in the program."
-        }
-       
+    "Pairing": {
+      "Title": "تعيين المرشدين للمتدربين",
+      "Value": "سيتم الانتهاء من جمع المرشدين للمتدربين في أكتوبر 2022"
     },
-    "mentorApplication": "Mentor Application",
-    "menteeApplication": "Mentee Application",
-    "ApplyNow": "Apply Now",
-    "ApplicationNotification": "The GAIN application window is between September 8th and 7th October 2022.",
-    "Mentee_Eligibility": "Eligibility",
-    "Eligibility": {
-        "Underrepresented": {
-            "Title" : "Underrepresented Minorities",
-            "Value" : "Applicants from the global South and underrepresented minorities in the Global North."
-        },
-        "FirstGeneration" : {
-            "Title" : "First Generation",
-            "Value" : "A candidate whose parent(s)/legal guardian(s) have not completed a bachelor’s degree."
-        },
-        "GenderedMinorities" : {
-            "Title" : "Gendered Minorities",
-            "Value" : "Women, non-binary applicants, and trans applicants of any gender orientation."
-        },
-        "LowIncome" : {
-            "Title" : "Low-Income",
-            "Value" : "Candidates  from households with net income below the United Nations and World Bank’s poverty measures."
-        },
-        "DisabledPersons" : {
-            "Title" : "Persons with disabilities",
-            "Value" : "Candidate who have a physical or mental impairment that substantially limits one or more major life activities, a person who has a history or record of such an impairment, or a person who is perceived by others as having such an impairment."
-        },
-        "LGBTQ" : {
-            "Title" : "LGBTQ+",
-            "Value" : "Lesbian, gay, bisexual, transgender, queer, intersex, or asexual applicants as described by the Human Rights Campaign."
-        }
+    "Mentoring": {
+      "Title": "التدريب",
+      "Value": "سيتم الانتهاء من التدريب في الفترة ما بين 1 نوفمبر 2022 إلى 30 مارس 2023"
     },
-    "CoSponsors" : "Co- Sponsors",
-    "BecomeMentor" : "Become a GAIN Mentor",
-    "MentorContent" : "Mentors support and assist mentees through guidance and feedback on their application portfolio: CV, Statement of Purpose, selecting graduate schools, and the professors aligned to their career interests. The mentoring will be done virtually on an agreed schedule between the mentor and the mentee at regular intervals. This is a volunteering program, so graduate students from any university across the world can participate in helping other young people. Graduate students have gained years of experience searching for scholarship opportunities, and thus, are equipped with the tools and skillsets to improve mentees' applications to graduate programmes.",
-    "AdvisoryCommittee": "ADVISORY COMMITTEE",
-    "CommitteeLead" : "Committee Lead:",
-    "AdvisoryCommitteeTeam" : "Team",
-    "OurTeam": "OUR TEAM",
-    "GAINLead": "GAIN Lead",
-    "Treasurer" : "Treasurer",
-    "CallToAction" : "\"Engaging underserved groups, transforming lives.\"",
-    "GetInTouch" : "Get In Touch",
-    "MenteeMessage" : "Incoming mentees:",
-    "ReachOut" : "reach out if you have questions about the application process, eligibility, timeline, etc.",
-    "CurrentGradStudents" : "Current graduate students:",
-    "GetInvolved" : "reach out if you would like to get involved in GAIN.",
-    "Donors" : "Donors/Youth Support Organizations:",
-    "Partnership" : "reach out if you want to donate and/or partner with us.",
-    "ContactUs" : "Contact Us",
-    "Submit" : "Submit",
-    "YourEmail" : "Your email",
-    "YourName" : "Your name",
-    "YourSubject" : "Subject", 
-    "YourMessage" : "Your Message",
-    "AboutUs" : "About Us",
-    "University" : "Osnabrück University, Germany",
-    "QuickLinks" : "Quick Links",
-    "AboutUsQuick" : "About Us",
-    "PrivacyPolicy" : "Privacy Policy",
-    "TermsAndConditions" : "Terms and conditions of service",
-    "Connect" : "Connect",
-    "CopyRight" : "Copyright 2022",
-    "AllRightsReserved" : "GAIN. All rights reserved",
-    "BackToTop" : "Back to top",
-    "Welcome" : "Welcome to :: GAIN"
+    "Feedback": {
+      "Title": "تعليقاتكم",
+      "Value": "سيتم جمع التعليقات من كل من المرشدين والمتدربين في أبريل 2023 للمساعدة في تحسين البرنامج"
+    },
+    "Closing": {
+      "Title": "الحفل الختامي",
+      "Value": "سيعقد حفل ختامي افتراضي في أوائل مايو 2023 حيث يمكن للموجهين والمتدربين تقديم تجربتهم في البرنامج"
+    }
+
+  },
+  "mentorApplication": "تقديم طلب المرشدين",
+  "menteeApplication": "تقديم طلب المتدربين ",
+  "ApplyNow": "قدم الآن",
+  "ApplicationNotification": " تقديم طلبات  جاين بين 8 سبتمبر  و 7 أكتوبر 2022",
+  "Mentee_Eligibility": "أهلية القبول",
+  "Eligibility": {
+    "Underrepresented": {
+      "Title": "الأقليات الناقصة التمثيل",
+      "Value": "المتقدمون من جنوب العالم والأقليات الممثلة تمثيلا ناقصا في شمال العالم"
+    },
+    "FirstGeneration": {
+      "Title": "الجيل الاول",
+      "Value": "مرشح لم يكمل والديه أو الأوصياء عليه درجة البكالوريوس"
+    },
+    "GenderedMinorities": {
+      "Title": "الأقليات الجنسانية",
+      "Value": "النساء والمتقدمين غير الثنائيين والمتقدمين المتحولين من أي اتجاه جنساني"
+    },
+    "LowIncome": {
+      "Title": "أصحاب الدخل منخفض",
+      "Value": "المرشحون من الأسر ذات الدخل تحت مقاييس الفقر للأمم المتحدة والبنك الدولي"
+    },
+    "DisabledPersons": {
+      "Title": "الاشخاص ذوى الاحتياجات الخاصة",
+      "Value": "المرشح الذي يعاني من ضعف جسدي أو عقلي يحد بشكل كبير من نشاط أو أكثر من أنشطة الحياة الرئيسية ، أو شخص لديه تاريخ أو سجل لمثل هذا الضعف ، أو شخص يرى الآخرون أنه يعاني من مثل هذا الضعف."
+    },
+    "LGBTQ": {
+      "Title": "LGBTQ+",
+      "Value": "المتقدمون من المثليات والمثليين ومزدوجي الميول الجنسية والمتحولين جنسياً والمثليين وثنائيي الجنس والمتقدمين اللاجنسيين كما هو موضح في حملة حقوق الإنسان"
+    }
+  },
+  "CoSponsors": "الرعاة",
+  "BecomeMentor": "كن مرشدًا لجاين ",
+  "MentorContent": "يدعم الموجهون المتدربون ويساعدونهم من خلال مراجعة طلباتهم: السيرة الذاتية ، وبيان الغرض، واختيار كليات الدراسات العليا ، والأساتذة المتوافقين مع اهتماماتهم المهنية. سيتم إجراء التوجيه افتراضيًا وفقًا لجدول زمني متفق عليه بين المرشد والمتعلم على فترات منتظمة. هذا برنامج تطوعي ، لذلك يمكن لطلاب الدراسات العليا من أي جامعة في جميع أنحاء العالم المشاركة في مساعدة الشباب الآخرين. اكتسب طلاب الدراسات العليا سنوات من الخبرة في البحث عن فرص المنح الدراسية ، وبالتالي فهم مجهزون بالمهارات اللازمة لتحسين طلبات المتدربين لبرامج التخرج",
+  "AdvisoryCommittee": "اللجنة الاستشارية",
+  "CommitteeLead": "رئيس اللجنة",
+  "AdvisoryCommitteeTeam": "الفريق",
+  "OurTeam": "فريقنا",
+  "GAINLead": "رئيس جاين",
+  "Treasurer": "Tامينة صندوق",
+  "CallToAction": "\"إشراك المجموعات المحرومة ، تغيير الحياة\"",
+  "GetInTouch": "  تواصل معنا ",
+  "MenteeMessage": "المتدربون القادمون ",
+  "ReachOut": "تواصل إذا كانت لديك أسئلة حول عملية التقديم ، والأهلية ، والجدول الزمني ، وما إلى ذلك",
+  "CurrentGradStudents": "طلاب الدراسات العليا الحاليون:",
+  "GetInvolved": "تواصل إذا كنت ترغب المشاركة في جاين",
+  "Donors": "الجهات المانحة / منظمات دعم الشباب",
+  "Partnership": "تواصل معنا إذا كنت تريد التبرع و / أو الشراكة معنا.",
+  "ContactUs": "اتصل بنا",
+  "Submit": "قدم",
+  "YourEmail": "بريدك الالكتروني",
+  "YourName": "اسمك",
+  "YourSubject": "الموضوع",
+  "YourMessage": "الرسالة",
+  "AboutUs": "معلومات عنا",
+  "University": "جامعة أوسنابروك ، ألمانيا",
+  "QuickLinks": "روابط سريعة",
+  "AboutUsQuick": "معلومات عنا",
+  "PrivacyPolicy": "سياسة الخصوصية",
+  "TermsAndConditions": "شروط الخدمة",
+  "Connect": "الاتصال",
+  "CopyRight": "حقوق الطبع والنشر 2022",
+  "AllRightsReserved": "جاين كل الحقوق محفوظة",
+  "BackToTop": "عد إلى الأعلى",
+  "Welcome": "مرحبا بكم في جاين",
+  "DataProtection" : {
+    "TermsAndConditions": {
+        "Title" : "الأحكام والشروط" ,
+        "Value" : " <p class='text-justify'>قريبا</p>"
+    },
+    "PrivacyPolicy": {
+        "Title" : "سياسة خصوصية GAIN" ,
+        "Value" : " <p class='text-justify'>قريبا</p>"
+    }
+},
+"Agree" : "يوافق على",
+"Disagree" : "تعارض",
+"AboutUsTitle" : "حول GAIN",
+"AboutUsContent" : "قريبا",
+"CloseAction" : "قريب"
 
 
 }

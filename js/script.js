@@ -20,33 +20,33 @@ function setLanguage(lang) {
     localStorage.setItem('language', lang);
     language = getLanguage();
     // console.log(language.values.Empower);
-    $('#lang_selector').text(language.lang);
-    $('#lang_selector2').text(language.lang);
-    $(".framework_menu").text(language.menu.framework);
-    $(".cosponsors_menu").text(language.menu.cosponsors);
-    $(".mentor_menu").text(language.menu.mentor);
-    $(".eligibility_menu").text(language.menu.eligibility);
-    $(".team_menu").text(language.menu.team);
-    $(".contact_menu").text(language.menu.contact);
-    $(".our_values").text(language.our_values);
+    $('#lang_selector').html(language.lang);
+    $('#lang_selector2').html(language.lang);
+    $(".framework_menu").html(language.menu.framework);
+    $(".cosponsors_menu").html(language.menu.cosponsors);
+    $(".mentor_menu").html(language.menu.mentor);
+    $(".eligibility_menu").html(language.menu.eligibility);
+    $(".team_menu").html(language.menu.team);
+    $(".contact_menu").html(language.menu.contact);
+    $(".our_values").html(language.our_values);
 
-    $(".Integrity_Content").text(language.values.Integrity.Value);
-    $(".Integrity").text(language.values.Integrity.Title);
+    $(".Integrity_Content").html(language.values.Integrity.Value);
+    $(".Integrity").html(language.values.Integrity.Title);
 
-    $(".Sustainability_Content").text(language.values.Sustainability.Value);
-    $(".Sustainability").text(language.values.Sustainability.Title);
+    $(".Sustainability_Content").html(language.values.Sustainability.Value);
+    $(".Sustainability").html(language.values.Sustainability.Title);
 
-    $(".Compassion_Content").text(language.values.Compassion.Value);
-    $(".Compassion").text(language.values.Compassion.Title);
+    $(".Compassion_Content").html(language.values.Compassion.Value);
+    $(".Compassion").html(language.values.Compassion.Title);
 
-    $(".Altruism_Content").text(language.values.Altruism.Value);
-    $(".Altruism").text(language.values.Altruism.Title);
+    $(".Altruism_Content").html(language.values.Altruism.Value);
+    $(".Altruism").html(language.values.Altruism.Title);
 
-    $(".Respect_Content").text(language.values.Respect.Value);
-    $(".Respect").text(language.values.Respect.Title);
+    $(".Respect_Content").html(language.values.Respect.Value);
+    $(".Respect").html(language.values.Respect.Title);
 
-    $(".Empower_Content").text(language.values.Empower.Value);
-    $(".Empower").text(language.values.Empower.Title);
+    $(".Empower_Content").html(language.values.Empower.Value);
+    $(".Empower").html(language.values.Empower.Title);
 
     $(".programme_framework").html(language.programme_framework);
 
@@ -138,6 +138,20 @@ function setLanguage(lang) {
 
     $(".Welcome").html(language.Welcome);
 
+    $(".btnAgree").text(language.Agree);
+    $(".TermsAndConditionsTitle").text(language.DataProtection.TermsAndConditions.Title);
+    $(".TermsAndConditionsContent").html(language.DataProtection.TermsAndConditions.Value);
+    $(".PrivacyPolicyTitle").text(language.DataProtection.PrivacyPolicy.Title);
+    $(".PrivacyPolicyContent").html(language.DataProtection.PrivacyPolicy.Value);
+    $(".btnDisagree").text(language.Disagree);
+    $(".btnClose").text(language.CloseAction);
+    $(".AboutUsTitle").html(language.AboutUsTitle);
+    $(".AboutUsContent").html(language.AboutUsContent);
+    
+
+
+
+
     /*Typerwriter Script*/
     var app = document.getElementById('typed');
 
@@ -177,6 +191,8 @@ $(document).ready(function(){
     $('.scrollspy').scrollSpy();
 
     $('.dropdown-trigger').dropdown();
+
+    $('.modal').modal();
 
 
     // var userLang = navigator.language || navigator.userLanguage;

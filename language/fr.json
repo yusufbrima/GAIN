@@ -1,55 +1,55 @@
 { 
-    "missionTitle": "Our Vision",
-    "mission": "To increase human capital development of underrepresented groups through a community-led mentoring programme.", 
-    "vision": "To provide a platform for radical inclusion of underrepresented groups to foster democratization of higher education.",
-    "our_values": "Our core values",
+    "missionTitle": "Notre vision",
+    "mission": "Accroître le développement du capital humain des groupes sous-représentés grâce à un programme de mentorat dirigé par la communauté", 
+    "vision": "Fournir une plate-forme pour l'inclusion radicale des groupes sous-représentés afin de favoriser la démocratisation de l'enseignement supérieur.",
+    "our_values": "Nos valeurs fondamentales",
     "values": {
         "Integrity": {
             "Title": "Integrity",
-            "Value": "We firmly believe in honesty and strong moral principles to guide our actions."
+            "Value": "Nous cherchons à vivre selon les normes les plus élevées d'honnêteté personnelle et de comportement ; nous ne compromettons jamais notre réputation et agissons toujours dans le meilleur intérêt du développement."
         },
       "Compassion": {
             "Title": "Compassion",
-            "Value": "Compassion drives our commitment to serving others with empathy, kindness, and dignity."
+            "Value": "Nous cherchons à vivre selon les normes les plus élevées d'honnêteté personnelle et de comportement ; nous ne compromettons jamais notre réputation et agissons toujours dans le meilleur intérêt du développement."
         },
         "Altruism": {
-            "Title": "Altruism",
-            "Value": "We strive selflessly for the welfare and well-being of others."
+            "Title": "Altruisme",
+            "Value": "Nous sommes attachés à un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs."
         },
 
         "Respect": {
             "Title": "Respect",
-            "Value": "We seek an inclusive and friendly community for all through the principle of equal value and dignity. "
+            "Value": "Nous sommes attachés à un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs."
         },
 
         "Empower": {
-            "Title": "Empower",
-            "Value": "We believe that everyone deserves to reach their fullest potential for self-actualization."
+            "Title": "Habiliter",
+            "Value": "Nous sommes attachés à un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs."
         },
 
         "Sustainability": {
-            "Title": "Sustainability",
-            "Value": "Our commitment to the democratization of graduate education remains steadfast in ensuring the resilience and continuity of our programs."
+            "Title": "Durabilité",
+            "Value": "Nous sommes attachés à un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs."
         }
     },
-    "lang": "Choose Languge",
+    "lang": "Choisissez la langue",
     "menu": {
         "cosponsors":"Co-Sponsors",
-        "framework": "Program Framework",
+        "framework": "Cadre du programme",
         "mentor": "Mentors",
-        "eligibility": "Mentees",
-        "team": "Team",
-        "contact": "Contact Us"
+        "eligibility": "Mentorés",
+        "team": "Équipe",
+        "contact": "Nous contacter"
     },
-    "programme_framework": "Programme Framework",
+    "programme_framework": "Cadre du programme",
     "Framework": { 
         "MentorRecruitment": { 
             "Title": "Recruitment of Mentors",
-            "Value" : "An application window is opened to recruit volunteer mentors between <b>September  2<sup>nd</sup>  and October 2<sup>nd</sup>, 2022</b>."
+            "Value" : "An application window is opened to recruit volunteer mentors between <b>August 22nd  and September 30, 2022</b>."
         },
       "MenteeRecruitment": { 
             "Title": "Recruitment of Mentees",
-            "Value" : "Concurrent application shall be open to mentees between <b>September 16<sup>th</sup>  and 16<sup>th</sup> October 2022</b>."
+            "Value" : "Concurrent application shall be open to mentees between <b>September 8th  and 7th October 2022</b>."
         },
     "Pairing": { 
             "Title": "Pairing of Mentors and Mentees",
@@ -57,7 +57,7 @@
         },
     "Mentoring": { 
             "Title": "Mentoring",
-            "Value" : "Mentorship shall be completed between <b>1<sup>st</sup> November 2022 till end of their application but not more than 3 months</b>."
+            "Value" : "Mentorship shall be completed between <b>1st November 2022 to March 30,  2023</b>."
         },
     "Feedback": { 
             "Title": "Feedback",
@@ -71,8 +71,8 @@
     },
     "mentorApplication": "Mentor Application",
     "menteeApplication": "Mentee Application",
-    "ApplyNow": "Apply Now",
-    "ApplicationNotification": "The GAIN application window is between September  2<sup>nd</sup>  and October 2<sup>nd</sup>, 2022.",
+    "ApplyNow": "Appliquer maintenant",
+    "ApplicationNotification": "La fenêtre de candidature GAIN se situe entre le 8 septembre et le 7 octobre 2022.",
     "Mentee_Eligibility": "Eligibility",
     "Eligibility": {
         "Underrepresented": {
@@ -144,11 +144,11 @@
             "Value" : " <p class='text-justify'>Coming soon</p>"
         }
     },
-    "Agree" : "Agree",
-    "Disagree" : "Disagree",
-    "AboutUsTitle" : "About GAIN",
-    "AboutUsContent" : "<p class='text-justify'>Coming soon</p>",
-    "CloseAction" : "Close"
+    "Agree" : "Accepter",
+    "Disagree" : "Être en désaccord",
+    "AboutUsTitle" : "À propos de GAIN",
+    "AboutUsContent" : "Bientôt disponible",
+    "CloseAction" : "proche"
 
 
 }

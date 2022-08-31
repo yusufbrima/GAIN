@@ -1,0 +1,153 @@
+{ 
+    "missionTitle": "Nuestra mision",
+    "mission": "Incrementar el desarrollo del capital humano de los grupos infrarrepresentados a través de un programa de tutoría dirigido por la comunidad.", 
+    "vision": "Proporcionar una plataforma para la inclusión radical de los grupos infrarrepresentados para fomentar la democratización de la educación superior.",
+    "our_values": "Nuestros valores fundamentales",
+    "values": {
+        "Integrity": {
+            "Title": "Integridad",
+            "Value": "Creemos firmemente en la honestidad y en los sólidos principios morales que guían nuestras acciones."
+        },
+      "Compassion": {
+            "Title": "Compasión",
+            "Value": "La compasión impulsa nuestro compromiso de servir a los demás con empatía, amabilidad y dignidad."
+        },
+        "Altruism": {
+            "Title": "Altruismo",
+            "Value": "Nos esforzamos desinteresadamente por el bienestar y el bienestar de los demás."
+        },
+
+        "Respect": {
+            "Title": "Respecto",
+            "Value": "Buscamos una comunidad inclusiva y amigable para todos a través del principio de igual valor y dignidad."
+        },
+
+        "Empower": {
+            "Title": "Empoderamiento",
+            "Value": "Creemos que todos merecen alcanzar su máximo potencial de autorrealización."
+        },
+
+        "Sustainability": {
+            "Title": "Sustainability",
+            "Value": "Nuestro compromiso con la democratización de la educación de posgrado se mantiene firme para garantizar la resiliencia y la continuidad de nuestros programas."
+        }
+    },
+    "lang": "Escoja un idioma",
+    "menu": {
+        "cosponsors":"Co-patrocinadores",
+        "framework": "Marco de referencia del programa",
+        "mentor": "Mentores/as",
+        "eligibility": "Participantes",
+        "team": "Equipo",
+        "contact": "Contacto con nosotros"
+    },
+    "programme_framework": "Marco de referencia del programa",
+    "Framework": { 
+        "MentorRecruitment": { 
+            "Title": "Reclutamiento de mentores",
+            "Value" : "Se abre una ventana de solicitud para reclutar mentores voluntarios entre el <b>2 de agosto y el 30 de septiembre de 2022<b>."
+        },
+      "MenteeRecruitment": { 
+            "Title": "Reclutamiento de participantes",
+            "Value" : "La solicitud concurrente estará abierta a los alumnos entre el <b>16 de septiembre y el 16 de octubre de 2022</b>."
+        },
+    "Pairing": { 
+            "Title": "Asignación de mentores y participantes",
+            "Value" : "Las parejas de mentores y participantes se completará en <b>octubre de 2022</b>."
+        },
+    "Mentoring": { 
+            "Title": "Mentoría",
+            "Value" : "La mentoría se completará entre el <b>1 de noviembre de 2022 y el 30 de marzo de 2023</b>."
+        },
+    "Feedback": { 
+            "Title": "Retroalimentación",
+            "Value" : "Los comentarios de los mentores/as y los participantes se recopilarán en <b>abril de 2023</b> para ayudar a mejorar el programa."
+        },
+    "Closing": { 
+            "Title": "Ceremonia de clausura",
+            "Value" : "A principios de <b>mayo de 2023</b> se llevará a cabo una ceremonia de clausura virtual donde  mentores/as y participantes podrán dar cuenta de su experiencia en el programa."
+        }
+       
+    },
+    "mentorApplication": "Aplicación de mentor/a",
+    "menteeApplication": "Aplicación de participantes",
+    "ApplyNow": "Aplica ya",
+    "ApplicationNotification": "La ventana de solicitud de GAIN es entre el 8 de septiembre y el 7 de octubre de 2022.",
+    "Mentee_Eligibility": "Elegibilidad",
+    "Eligibility": {
+        "Underrepresented": {
+            "Title" : "Minorías subrepresentadas",
+            "Value" : "Solicitantes del Sur global y minorías subrepresentadas en el Norte global."
+        },
+        "FirstGeneration" : {
+            "Title" : "Primera  generación",
+            "Value" : "Un candidato cuyo(s) padre(s)/tutor(es) legal(es) no hayan completado educación universitaria."
+        },
+        "GenderedMinorities" : {
+            "Title" : "Minorías de género",
+            "Value" : "Mujeres, solicitantes no binarios y solicitantes trans de cualquier orientación de género."
+        },
+        "LowIncome" : {
+            "Title" : "De bajos ingresos",
+            "Value" : "Candidatos de hogares con ingresos netos por debajo de las medidas de pobreza de las Naciones Unidas y el Banco Mundial."
+        },
+        "DisabledPersons" : {
+            "Title" : "Personas con discapacidades",
+            "Value" : "un candidato que tiene un impedimento físico o mental que limita sustancialmente una o más actividades importantes de la vida, una persona que tiene un historial o registro de dicho impedimento, o una persona a la que otros perciben y limitan en función de dicho impedimento."
+        },
+        "LGBTQ" : {
+            "Title" : "LGBTQ+",
+            "Value" : "Solicitantes lesbianas, gais, bisexuales, transgénero, queer, intersexuales o asexuales según lo descrito por la Campaña de Derechos Humanos."
+        }
+    },
+    "CoSponsors" : "Co-patrocinadores",
+    "BecomeMentor" : "Conviértase en un mentor GAIN",
+    "MentorContent" : "Los mentores apoyan y ayudan a los aprendices a través de orientación y comentarios sobre su cartera de aplicaciones: CV, declaración de propósito, selección de escuelas de posgrado y profesores alineados con sus intereses profesionales. La tutoría se realizará virtualmente en un horario acordado entre el mentor y el aprendiz a intervalos regulares. Este es un programa de voluntariado, por lo que los estudiantes de posgrado de cualquier universidad del mundo pueden participar ayudando a otros jóvenes. Los estudiantes de posgrado han adquirido años de experiencia en la búsqueda de oportunidades de becas y, por lo tanto, están equipados con las herramientas y los conjuntos de habilidades para mejorar las solicitudes de los aprendices a los programas de posgrado.",
+    "AdvisoryCommittee": "COMITÉ ASESOR",
+    "CommitteeLead" : "Líder del comité:",
+    "AdvisoryCommitteeTeam" : "Equipo",
+    "OurTeam": "Nuestro equipo",
+    "GAINLead": "GAIN líder",
+    "Treasurer" : "Tesorero",
+    "CallToAction" : "\"Involucrar a grupos desatendidos, transformar vidas.\"",
+    "GetInTouch" : "Ponerse en contacto",
+    "MenteeMessage" : "Participantes entrantes:",
+    "ReachOut" : "comuníquese si tiene preguntas sobre el proceso de solicitud, elegibilidad, cronograma, etc.",
+    "CurrentGradStudents" : "Estudiantes de posgrado actuales:",
+    "GetInvolved" : "Comuníquese si desea participar en GAIN.",
+    "Donors" : "Donantes/Organizaciones de apoyo a la juventud:",
+    "Partnership" : "Comuníquese si desea donar y / o asociarse con nosotros.",
+    "ContactUs" : "Contactanos",
+    "Submit" : "Enviar",
+    "YourEmail" : "Su email",
+    "YourName" : "Su nombre",
+    "YourSubject" : "Asunto", 
+    "YourMessage" : "Su mensaje",
+    "AboutUs" : "Sobre nosotros",
+    "University" : "Osnabrück University, Germany",
+    "QuickLinks" : "Links rápidos",
+    "AboutUsQuick" : "Sobre nosotros",
+    "PrivacyPolicy" : "Política de privacidad",
+    "TermsAndConditions" : "Términos y condiciones del servicio",
+    "Connect" : "Conectar",
+    "CopyRight" : "Copyright 2022",
+    "AllRightsReserved" : "GAIN. Todos los derechos reservados",
+    "BackToTop" : "Volver arriba",
+    "Welcome" : "Bienvenido a GAIN",
+    "DataProtection" : {
+        "TermsAndConditions": {
+            "Title" : "Términos y condiciones" ,
+            "Value" : " <p class='text-justify'>Coming soon</p>"
+        },
+        "PrivacyPolicy": {
+            "Title" : "Política de privacidad de GAIN" ,
+            "Value" : " <p class='text-justify'>Coming soon</p>"
+        }
+    },
+    "Agree" : "Aceptar",
+    "Disagree" : "Discrepar",
+    "AboutUsTitle" : "Acerca de GAIN",
+    "AboutUsContent" : "<p class='text-justify'>Coming soon</p>",
+    "CloseAction" : "Cerca"
+
+}

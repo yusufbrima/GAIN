@@ -134,6 +134,21 @@
     "CopyRight" : "Copyright 2022",
     "AllRightsReserved" : "GAIN. Все права защищены",
     "BackToTop" : "Наверх",
-    "Welcome" : "Добро пожаловать :: GAIN"
+    "Welcome" : "Добро пожаловать GAIN",
+    "DataProtection" : {
+        "TermsAndConditions": {
+            "Title" : "Terms and Conditions" ,
+            "Value" : " <p class='text-justify'>Coming soon</p>"
+        },
+        "PrivacyPolicy": {
+            "Title" : "GAIN Privacy Policy" ,
+            "Value" : " <p class='text-justify'>Coming soon</p>"
+        }
+    },
+    "Agree" : "Agree",
+    "Disagree" : "Disagree",
+    "AboutUsTitle" : "",
+    "AboutUsContent" : "",
+    "CloseAction" : "Close"
 
 }

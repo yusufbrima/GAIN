@@ -6,30 +6,30 @@
     "values": {
         "Integrity": {
             "Title": "Integrity",
-            "Value": "Wir sind bestrebt, die höchsten Standards der persönlichen Ehrlichkeit und des Verhaltens zu leben; Wir kompromittieren niemals unseren guten Ruf und handeln immer im besten Interesse der Entwicklung."
+            "Value": "Wir glauben fest an Ehrlichkeit und starke moralische Prinzipien, die unser Handeln leiten."
         },
       "Compassion": {
             "Title": "Mitgefühl",
-            "Value": "Wir sind bestrebt, die höchsten Standards der persönlichen Ehrlichkeit und des Verhaltens zu leben; Wir kompromittieren niemals unseren guten Ruf und handeln immer im besten Interesse der Entwicklung."
+            "Value": "Mitgefühl treibt unsere Verpflichtung an, anderen mit Empathie, Freundlichkeit und Würde zu dienen."
         },
         "Altruism": {
             "Title": "Altruismus",
-            "Value": "Wir setzen uns für eine Entwicklung ein, die den Bedürfnissen der Gegenwart entspricht, ohne die Fähigkeit künftiger Generationen zu gefährden, ihre eigenen Bedürfnisse zu befriedigen."
+            "Value": "Wir bemühen uns selbstlos um das Wohlergehen und Wohlergehen anderer."
         },
 
         "Respect": {
             "Title": "Respekt",
-            "Value": "Wir setzen uns für eine Entwicklung ein, die den Bedürfnissen der Gegenwart entspricht, ohne die Fähigkeit künftiger Generationen zu gefährden, ihre eigenen Bedürfnisse zu befriedigen."
+            "Value": "Wir streben nach einer integrativen und freundlichen Gemeinschaft für alle durch das Prinzip der Gleichwertigkeit und Würde."
         },
 
         "Empower": {
             "Title": "Ermächtigen",
-            "Value": "Wir setzen uns für eine Entwicklung ein, die den Bedürfnissen der Gegenwart entspricht, ohne die Fähigkeit künftiger Generationen zu gefährden, ihre eigenen Bedürfnisse zu befriedigen."
+            "Value": "Wir glauben, dass jeder es verdient, sein volles Potenzial zur Selbstverwirklichung auszuschöpfen."
         },
 
         "Sustainability": {
             "Title": "Nachhaltigkeit",
-            "Value": "Wir setzen uns für eine Entwicklung ein, die den Bedürfnissen der Gegenwart entspricht, ohne die Fähigkeit künftiger Generationen zu gefährden, ihre eigenen Bedürfnisse zu befriedigen."
+            "Value": "Unser Engagement für die Demokratisierung der Graduiertenausbildung bleibt standhaft, um die Widerstandsfähigkeit und Kontinuität unserer Programme zu gewährleisten."
         }
     },
     "lang": "Sprache wählen",
@@ -133,7 +133,22 @@
     "CopyRight" : "Urheberrecht 2022",
     "AllRightsReserved" : "GAIN. Alle Rechte vorbehalten",
     "BackToTop" : "Zurück nach oben",
-    "Welcome" : "Herzlich willkommen :: GAIN"
+    "Welcome" : "Herzlich willkommen GAIN",
+    "DataProtection" : {
+        "TermsAndConditions": {
+            "Title" : "Geschäftsbedingungen" ,
+            "Value" : " <p class='text-justify'>Coming soon</p>"
+        },
+        "PrivacyPolicy": {
+            "Title" : "GAIN Privacy Policy" ,
+            "Value" : " <p class='text-justify'>Coming soon</p>"
+        }
+    },
+    "Agree" : "Zustimmen",
+    "Disagree" : "Nicht zustimmen",
+    "AboutUsTitle" : "Über GAIN",
+    "AboutUsContent" : "",
+    "CloseAction" : "Nah dran"
 
 
 }
